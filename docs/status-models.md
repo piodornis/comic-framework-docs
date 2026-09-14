@@ -10,6 +10,7 @@
 - [Approval authority](#approval-authority)
 - [Conflicts across layers](#conflicts-across-layers)
 - [Framework-level Style Pack approval](#framework-level-style-pack-approval)
+- [Work-tracking labels](#work-tracking-labels)
 - [Production status](#production-status)
 
 ## Purpose
@@ -136,6 +137,14 @@ It does **not** mean:
 - project-specific designs made with it are automatically approved
 
 A project must explicitly select or approve its own use of the Style Pack through its Design layer.
+
+## Work-tracking labels
+
+An optional project `work-status.md` may use local labels such as ready, in progress, deferred, awaiting decision or done. They describe work progress, not factual truth or artifact approval, and do not define an additional framework lifecycle.
+
+A completed task may deliver an `EXPLORATION` or `PROPOSAL`. An intentional `OPEN` mystery need not be a blocker. Marking work done does not promote a design to `APPROVED` or a story statement to `CANON`.
+
+See [Project Work Tracking](work-tracking.md) for coordination and handoff guidance.
 
 ## Production status
 

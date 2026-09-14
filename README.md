@@ -62,6 +62,7 @@ Repository names and framework-contract identifiers are deliberately independent
 - [`docs/architecture-decisions.md`](docs/architecture-decisions.md) — major architectural choices and their rationale
 - [`docs/project-model.md`](docs/project-model.md) — how one comic project combines the layers
 - [`docs/workflow.md`](docs/workflow.md) — non-linear end-to-end development flow
+- [`docs/work-tracking.md`](docs/work-tracking.md) — optional project work overview, open decisions, conflict links and resumable handoffs
 - [`docs/framework-boundaries.md`](docs/framework-boundaries.md) — ownership and scope boundaries
 - [`docs/status-models.md`](docs/status-models.md) — canon and design status axes
 - [`docs/versioning.md`](docs/versioning.md) — repository, contract and artifact versioning guidance

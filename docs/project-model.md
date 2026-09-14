@@ -6,6 +6,7 @@
 - [One comic, one project repository](#one-comic-one-project-repository)
 - [Current combined layout](#current-combined-layout)
 - [Project entry points](#project-entry-points)
+- [Optional work overview](#optional-work-overview)
 - [Authority by layer](#authority-by-layer)
 - [Project-specific styles and configuration](#project-specific-styles-and-configuration)
 - [Future production layer](#future-production-layer)
@@ -34,6 +35,7 @@ A project using the current Story and Design standards may look like:
 ```text
 comic-project/
 ├── project.md
+├── work-status.md          # optional project convention
 ├── canon/
 ├── characters/
 ├── relationships/
@@ -92,6 +94,14 @@ It may define:
 For project-wide Design tasks, inspect both files when present and relevant.
 
 `design-project.md` must not silently override narrative canon from the Story layer. Likewise, Story-side edits must not silently replace an approved or locked visual design.
+
+## Optional work overview
+
+A project may add `work-status.md` for next actions, pending decisions, handoffs and links to conflicts. Document its adoption in `project.md`. It is a coordination index, not a third source-of-truth entry point and not a required file in either current framework contract.
+
+The domain records retain authority over narrative facts and visual approval. A project-specific conflict index, such as `canon/conflicts.md`, retains its own responsibility; the work overview links to it rather than duplicating its contents.
+
+See [Project Work Tracking](work-tracking.md) for suggested fields, maintenance, pauses and external artifact intake.
 
 ## Authority by layer
 

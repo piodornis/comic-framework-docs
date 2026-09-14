@@ -10,6 +10,7 @@
 - [Approval gates](#approval-gates)
 - [From Design to Production](#from-design-to-production)
 - [Focused work versus project-wide work](#focused-work-versus-project-wide-work)
+- [Work tracking and resumable handoffs](#work-tracking-and-resumable-handoffs)
 
 ## Purpose
 
@@ -148,3 +149,11 @@ Do not scan or rewrite the complete project for every small task.
 For a focused task, use the smallest source set that establishes the required constraints.
 
 For a broad architectural or project-wide task, inspect the relevant entry points and authoritative sources before making recommendations.
+
+## Work tracking and resumable handoffs
+
+When a project adopts `work-status.md`, use it to find the next action and its source records. After meaningful progress, decisions, pauses or handoffs, update only the relevant work items and evidence links. State the remaining action and dependency clearly, and preserve unrelated concurrent work.
+
+Keep actionable work separate from intentionally open story questions and actual contradictions. Task completion does not grant canon or design approval; a pause does not imply a blocker. The overview introduces no new permission gate and does not authorize automatic continuation or scheduling.
+
+See [Project Work Tracking](work-tracking.md) for the optional convention. It is descriptive integration guidance, not a change to the Story or Design standards.
