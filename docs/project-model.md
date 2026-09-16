@@ -9,7 +9,7 @@
 - [Optional work overview](#optional-work-overview)
 - [Authority by layer](#authority-by-layer)
 - [Project-specific styles and configuration](#project-specific-styles-and-configuration)
-- [Future production layer](#future-production-layer)
+- [Production planning layer](#production-planning-layer)
 - [Framework repositories are not project templates](#framework-repositories-are-not-project-templates)
 
 ## Purpose
@@ -62,7 +62,7 @@ Projects may intentionally adapt the exact directory layout. Compatibility depen
 
 ## Project entry points
 
-The current combined model has two complementary entry points.
+The combined model has Story and Design entry points, plus an opt-in Production planning entry point.
 
 ### `project.md`
 
@@ -143,13 +143,11 @@ comic-project/
 
 A framework-level Style Pack can be approved as a reusable resource without being active or approved for a particular comic. Project activation belongs in `design-project.md` or another explicitly documented project-level decision.
 
-## Future production layer
+## Production planning layer
 
-Production has not yet been standardized.
+Projects may opt into `comic-production-standard-v0.1-draft` through `production-project.md`, with issue plans under `production/issues/<issue-id>/production-plan.md`. These records hold format defaults, physical page allocation, panel targets and advertising reservations. They link Story and Design records without replacing them.
 
-A future project may add a production entry point and directories for panels, pages, lettering, assets or exports, but those paths are **illustrative only** until `comic-framework-production` defines its contract.
-
-Do not treat a speculative production tree in this documentation as a current standard.
+The draft template and normative structure live in `comic-framework-production`. Rendering/export paths remain deferred. See [Production Planning](production-planning.md).
 
 ## Framework repositories are not project templates
 

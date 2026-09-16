@@ -148,6 +148,6 @@ See [Project Work Tracking](work-tracking.md) for coordination and handoff guida
 
 ## Production status
 
-No Production status model has been defined yet.
+The Production planning draft uses `DRAFT`, `IN_REVIEW`, `ACCEPTED` and `SUPERSEDED` for plans only. Acceptance records creator authorization, revision and scope; changed accepted plans return as new draft revisions. These states do not approve narrative facts, designs or final assets.
 
-Do not reuse Design states automatically for Production artifacts unless the future Production framework explicitly chooses to do so.
+Rendered-asset status and print readiness remain undefined. See the owning Production schema and [Production Planning](production-planning.md).

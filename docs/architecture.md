@@ -25,7 +25,7 @@ comic-framework-design      ───────┼──→  one comic project
 comic-framework-production  ───────┘     containing project-specific truth
 ```
 
-`comic-framework-production` is planned but not yet implemented.
+`comic-framework-production` contains an experimental planning foundation; rendering and export remain unimplemented.
 
 ## Repository model
 
@@ -35,7 +35,7 @@ The framework family uses one repository per responsibility:
 |---|---|
 | `comic-framework-story` | Narrative development and narrative consistency |
 | `comic-framework-design` | Visual development and visual approval |
-| `comic-framework-production` | Final comic production; planned |
+| `comic-framework-production` | Issue production planning; final assets planned |
 | `comic-framework-docs` | Cross-framework architecture and integration documentation |
 
 A comic such as Human Park should use a separate project repository rather than becoming a branch or fork of a framework repository.
@@ -91,7 +91,7 @@ Expected responsibilities include:
 - production corrections
 - export and delivery formats
 
-This layer is intentionally not yet normative. Its repository structure, status model and contract should be defined only when the production framework is designed.
+Format, page budget, panel defaults/overrides and ad reservations are defined by the draft `comic-production-standard-v0.1-draft`. Final-asset workflows and status remain deferred. See [Production Planning](production-planning.md).
 
 ## Source-of-truth model
 
@@ -109,6 +109,7 @@ comic-framework-story
 
 comic-framework-design
 → comic-design-standard-v1
+comic-production-standard-v0.1-draft (planning only)
 ```
 
 ### Project-specific truth
@@ -128,6 +129,7 @@ Current contracts:
 ```text
 comic-project-standard-v1
 comic-design-standard-v1
+comic-production-standard-v0.1-draft (planning only)
 ```
 
 A repository may be renamed without changing its contract identifier.
@@ -173,4 +175,4 @@ comic-framework-story/schemas/
 comic-framework-design/schemas/
 ```
 
-When a new production framework is created, its normative rules should likewise live in that repository.
+Draft production rules live in `comic-framework-production/schemas/`; this documentation describes their integration.

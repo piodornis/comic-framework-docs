@@ -39,7 +39,7 @@ A useful high-level view is:
                                 ▼
                  ┌─────────────────────────────┐
                  │        PRODUCTION           │
-                 │           planned           │
+                 │       planning draft        │
                  └─────────────────────────────┘
 ```
 
@@ -140,7 +140,7 @@ active style and transformation configuration
          production
 ```
 
-Exact production requirements remain open until the production framework is implemented.
+Planning can start before final artwork: choose format, reserve covers/ads, derive the Story-page budget, then reconcile panel targets and physical slots with Story. Rendering still requires sufficiently stable Story and Design inputs. See [Production Planning](production-planning.md).
 
 ## Focused work versus project-wide work
 

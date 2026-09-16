@@ -123,3 +123,7 @@ This applies especially to:
 Add or revise an entry when a cross-framework architectural choice changes materially.
 
 Do not use this file to duplicate detailed schemas or operating procedures. Record the decision, its rationale and the boundary it establishes; keep normative implementation details in the owning framework repository.
+
+## Production planning foundation — 2026-09-14
+
+Concrete requirements now justify an initial Production draft: format profiles, page budgets, per-page panel overrides and advertising reservations. The contract is `comic-production-standard-v0.1-draft`, deliberately limited to planning. Its schemas and templates live in the owning framework; this repository remains descriptive. Earlier references to deferring all Production work are superseded for this scope only. Rendering/export and final-asset status remain deferred. See [Production Planning](production-planning.md).

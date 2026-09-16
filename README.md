@@ -2,7 +2,7 @@
 
 Architecture and integration documentation for the modular Comic Framework.
 
-This repository explains how the framework modules fit together, how comic project repositories consume them, and where responsibilities pass from story to design and eventually to production.
+This repository explains how the framework modules fit together, how comic project repositories consume them, and where responsibilities pass from story to design and to production planning and later asset production.
 
 It is intentionally **descriptive and cross-framework**. Normative schemas and executable Skill sources stay in their owning framework repositories.
 
@@ -12,7 +12,7 @@ It is intentionally **descriptive and cross-framework**. Normative schemas and e
 |---|---|---|
 | `comic-framework-story` | Narrative truth, world and character development, story, scripts, storyboards, canon and continuity review | Implemented |
 | `comic-framework-design` | Visual style, character and environment design, visual references, source transformations and design approval | Implemented |
-| `comic-framework-production` | Final comic asset production, page assembly, lettering and export | Planned |
+| `comic-framework-production` | Format, page and advertising planning; later rendering, lettering and export | Planning foundation v0.1 draft |
 | `comic-framework-docs` | Cross-framework architecture, boundaries, handoffs and roadmap | This repository |
 
 Project-specific comic content lives outside the framework repositories, for example in a repository such as `dcomics-human-park`.
@@ -43,7 +43,7 @@ A comic project may use several framework modules at the same time. The project 
                   ▲               ▲               ▲
                   │               │               │
     comic-framework-story  comic-framework-design  comic-framework-production
-                                                    (planned)
+                                                    (planning draft)
 ```
 
 The modules are separate because they own different decisions, not because a comic should be split into separate project repositories.
@@ -52,7 +52,7 @@ The modules are separate because they own different decisions, not because a com
 
 - Story/project layer: **Comic Project Standard v1** — `comic-project-standard-v1`
 - Design layer: **Comic Design Standard v1** — `comic-design-standard-v1`
-- Production layer: no contract has been defined yet
+- Production planning: `comic-production-standard-v0.1-draft` — experimental; rendering/export deferred
 
 Repository names and framework-contract identifiers are deliberately independent. Renaming a repository does not require renaming an established contract.
 
@@ -68,7 +68,7 @@ Repository names and framework-contract identifiers are deliberately independent
 - [`docs/versioning.md`](docs/versioning.md) — repository, contract and artifact versioning guidance
 - [`docs/roadmap.md`](docs/roadmap.md) — current implementation state and next phases
 - [`docs/handoffs/story-to-design.md`](docs/handoffs/story-to-design.md) — story/design interface
-- [`docs/handoffs/design-to-production.md`](docs/handoffs/design-to-production.md) — preliminary design/production interface
+- [`docs/handoffs/design-to-production.md`](docs/handoffs/design-to-production.md) — planning and future asset-production interface
 
 ## Normative source rule
 
@@ -81,4 +81,6 @@ When this documentation and a normative framework schema disagree, the owning fr
 - `comic-framework-story` — <https://github.com/piodornis/comic-framework-story>
 - `comic-framework-design` — <https://github.com/piodornis/comic-framework-design>
 
-Add `comic-framework-production` here only after that repository and its contract actually exist.
+Production planning source: local sibling repository `comic-framework-production`, contract `comic-production-standard-v0.1-draft`. No remote publication is implied.
+
+See [Production Planning](docs/production-planning.md) for the first implementation scope.

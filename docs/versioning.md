@@ -37,6 +37,7 @@ Current identifiers:
 
 - `comic-project-standard-v1`
 - `comic-design-standard-v1`
+- `comic-production-standard-v0.1-draft` (experimental planning only; not a stable v1)
 
 Treat them as compatibility contracts, not marketing or repository names.
 

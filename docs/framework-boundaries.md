@@ -34,6 +34,8 @@ A layer may **consume** information owned elsewhere without becoming its authori
 | Props, machinery, vehicles, costumes and creatures in v1 | Design | Character or Environment Designer depending on context |
 | Source-image preservation rules | Design | Transformation Profiles |
 | Visual approval state | Design | Independent from canon state |
+| Format, page budget and ad reservations | Production planning | Draft contract; Story retains pacing and panel intent |
+| Panel defaults and per-page overrides | Production planning with Story reconciliation | Targets, not automatic rewrites of storyboards |
 | Final panel rendering | Production, planned | Not yet standardized |
 | Page assembly | Production, planned | Not yet standardized |
 | Lettering and final page treatment | Production, planned | Story supplies textual/narrative intent |
@@ -75,7 +77,7 @@ Production is expected to answer questions such as:
 
 Likely responsibilities include rendering, assembly, lettering, correction passes and exports.
 
-The exact boundary remains provisional until `comic-framework-production` exists. This documentation should be updated when that framework establishes normative rules.
+The planning boundary is defined in the Production draft schemas. Rendering, assembly and export remain future scope. Physical slot allocation belongs to Production; changes to narrative panel intent return to Story. See [Production Planning](production-planning.md).
 
 ## Shared concerns
 

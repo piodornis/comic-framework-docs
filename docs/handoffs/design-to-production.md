@@ -1,6 +1,6 @@
 # Design to Production Handoff
 
-> **Status:** Preliminary architecture note. `comic-framework-production` and its contract do not yet exist.
+> **Status:** Planning foundation exists as `comic-production-standard-v0.1-draft`; asset-production handoff remains preliminary.
 
 ## Contents
 
@@ -14,9 +14,9 @@
 
 ## Purpose
 
-This document records the currently intended Design-to-Production boundary without pretending that a Production standard has already been designed.
+This document separates the implemented draft planning boundary from the still-future final-asset handoff.
 
-It should become an input to `comic-framework-production`, not a substitute for that future framework's normative schemas.
+Normative draft planning rules live in `comic-framework-production/schemas/`. See [Production Planning](../production-planning.md).
 
 ## Current boundary
 
@@ -89,10 +89,8 @@ Even before Production is implemented, several cross-framework rules are already
 
 The Production framework still needs to decide:
 
-- contract identifier
-- production entry-point filename
-- production directory structure
-- whether Production needs its own artifact status model
+- final-asset directory structure beyond the existing issue-plan path
+- final-asset status model beyond the existing plan-review states
 - what counts as approval for a final panel or page
 - storage strategy for large generated assets
 - Git LFS or external asset guidance

@@ -12,13 +12,13 @@
 
 ## Current baseline
 
-The architecture currently consists of two implemented framework modules, one documentation repository and one planned production module.
+The architecture currently consists of two implemented framework modules, one documentation repository and one draft production planning module.
 
 ```text
 comic-framework-story       implemented
 comic-framework-design      implemented
 comic-framework-docs        current documentation layer
-comic-framework-production  planned
+comic-framework-production  planning foundation v0.1 draft
 ```
 
 ## Phase 1 - Story framework
@@ -96,9 +96,11 @@ Human Park is a suitable integration project, but its canon and visual identity 
 
 ## Phase 5 - Production framework
 
-Design `comic-framework-production` only after real project work exposes concrete production requirements.
+The initial `comic-framework-production` foundation now addresses the supplied concrete requirements: configurable format, page count, panel defaults with per-page exceptions and advertising reservations. It includes draft schemas, a project template and worked 24-page and 32-page examples. The 24-page example includes two full interior ads; prose-first intake distinguishes provisional budgets from accepted Story pages. No executable Production Skills or rendering/export implementation exist yet.
 
-Likely topics include:
+Next: exercise the plan on one real issue, resolve physical-slot versus Story-page mapping, and then implement `comic-production-planner`. See [Production Planning](production-planning.md).
+
+Remaining implementation topics include:
 
 - production entry point
 - production artifact status and approval model, if needed
