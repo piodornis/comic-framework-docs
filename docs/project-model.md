@@ -5,6 +5,7 @@
 - [Purpose](#purpose)
 - [One comic, one project repository](#one-comic-one-project-repository)
 - [Current combined layout](#current-combined-layout)
+- [Character profiles and design records](#character-profiles-and-design-records)
 - [Project entry points](#project-entry-points)
 - [Optional work overview](#optional-work-overview)
 - [Authority by layer](#authority-by-layer)
@@ -59,6 +60,26 @@ comic-project/
 The Story layer's `style/` directory is for **narrative and writing conventions** such as dialogue voice and storytelling rules. Visual style belongs under the Design layer.
 
 Projects may intentionally adapt the exact directory layout. Compatibility depends on preserving the framework's responsibilities and source-of-truth rules, not on mechanically creating every optional directory.
+
+## Character profiles and design records
+
+When Story and Design are used together, use matching character IDs and keep one authoritative copy of each asset:
+
+```text
+characters/<character-id>/profile.md
+design/characters/<character-id>/design.md
+design/characters/<character-id>/references/
+```
+
+The profile owns narrative identity, biography and canon states. The design record owns visual decisions, reference inventory and design states. Link the profile to the design record and the design record back to the profile. Store visual references and available generation prompts under the Design references directory; do not duplicate them under Story. Story-specific source material may still use `characters/<character-id>/references/`.
+
+For Story-only projects, the local `characters/<character-id>/references/` pattern remains valid. Respect documented project-specific paths; adding the Design layer does not authorize moving existing assets. Optional `characters/README.md` and `design/characters/README.md` indexes can make the records discoverable without creating another source of truth.
+
+Generic body-type studies and ensemble sheets remain design studies; no individual character profile is required until a named character actually exists. Missing references should be explicit, not filled with an unrelated asset or invented original prompt.
+
+When a project author requests harmonization, preserve image contents and narrative/design states, update active links, and document old/new paths. Original prompts and provenance records remain historical evidence; a migration map can resolve their old paths. Optional checksums help verify that a move did not alter an image. An organizational change neither approves a design nor establishes new canon.
+
+Frameworks contain reusable conventions and generic examples. Character properties, institutional hierarchies, project-specific models and concrete artwork belong only in the comic project repository.
 
 ## Project entry points
 
