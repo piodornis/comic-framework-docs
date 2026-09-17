@@ -150,4 +150,4 @@ See [Project Work Tracking](work-tracking.md) for coordination and handoff guida
 
 The Production planning draft uses `DRAFT`, `IN_REVIEW`, `ACCEPTED` and `SUPERSEDED` for plans only. Acceptance records creator authorization, revision and scope; changed accepted plans return as new draft revisions. These states do not approve narrative facts, designs or final assets.
 
-Rendered-asset status and print readiness remain undefined. See the owning Production schema and [Production Planning](production-planning.md).
+A universal rendered-asset lifecycle remains undefined. A project may record technical checks and explicit print-release evidence for an exact output revision; this does not introduce new framework status enums. Local labels such as PREPARED, WAITING_FOR_INPUT, PASS or text APPROVED must state their scope and must not imply canon, Design approval or plan acceptance. File existence, a completed checklist template or an export alone is not print readiness. See [Lettering and print workflow](lettering-and-print-workflow.md) and [Production Planning](production-planning.md).

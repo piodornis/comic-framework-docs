@@ -120,3 +120,7 @@ Do not prematurely freeze these decisions in the documentation repository.
 Prefer a small set of broad, well-defined Skills over speculative specialization.
 
 Split responsibilities such as props, vehicles, costumes, creatures or specialized production tasks into dedicated Skills only when repeated real-world use shows that the existing ownership model is insufficient.
+
+## Documented preparation increment — 2026-09-17
+
+Story lettering handoff, Design production-input guidance and the [lettering/print pilot](lettering-and-print-workflow.md) are now documented. Human Park provides prepared project-local folders and blank templates; it has not yet supplied a tested native layout/import/export implementation. Next evidence needed: prior comic intake, a representative spread and dense-text probe, synchronized correction test, then native import and actual PDF checks. Promote proven reusable rules into the owning Production framework afterward.

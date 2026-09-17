@@ -168,7 +168,7 @@ A framework-level Style Pack can be approved as a reusable resource without bein
 
 Projects may opt into `comic-production-standard-v0.1-draft` through `production-project.md`, with issue plans under `production/issues/<issue-id>/production-plan.md`. These records hold format defaults, physical page allocation, panel targets and advertising reservations. They link Story and Design records without replacing them.
 
-The draft template and normative structure live in `comic-framework-production`. Rendering/export paths remain deferred. See [Production Planning](production-planning.md).
+The draft template and normative structure live in `comic-framework-production`. Normative rendering/export paths remain deferred. Projects may now trial explicitly documented local lettering/artwork/layout/export directories; these do not extend the planning contract. See [Production Planning](production-planning.md) and [Lettering and print workflow](lettering-and-print-workflow.md).
 
 ## Framework repositories are not project templates
 

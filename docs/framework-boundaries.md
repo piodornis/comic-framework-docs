@@ -36,10 +36,10 @@ A layer may **consume** information owned elsewhere without becoming its authori
 | Visual approval state | Design | Independent from canon state |
 | Format, page budget and ad reservations | Production planning | Draft contract; Story retains pacing and panel intent |
 | Panel defaults and per-page overrides | Production planning with Story reconciliation | Targets, not automatic rewrites of storyboards |
-| Final panel rendering | Production, planned | Not yet standardized |
-| Page assembly | Production, planned | Not yet standardized |
-| Lettering and final page treatment | Production, planned | Story supplies textual/narrative intent |
-| Export formats | Production, planned | Not yet standardized |
+| Final panel rendering | Production | Implementation and asset contract remain future work |
+| Page assembly | Production | Project pilot workflow documented; implementation pending |
+| Lettering and final page treatment | Production | Story supplies exact text and correction authority; pilot guidance documented |
+| Export formats and print checks | Production | Project/printer-specific; no implemented export pipeline |
 
 ## Story boundary
 
@@ -77,7 +77,7 @@ Production is expected to answer questions such as:
 
 Likely responsibilities include rendering, assembly, lettering, correction passes and exports.
 
-The planning boundary is defined in the Production draft schemas. Rendering, assembly and export remain future scope. Physical slot allocation belongs to Production; changes to narrative panel intent return to Story. See [Production Planning](production-planning.md).
+The planning boundary is defined in the Production draft schemas. Page assembly, lettering and print review now have a documented project-pilot workflow; executable rendering, assembly and export remain future scope. Physical slot allocation belongs to Production; changes to narrative panel intent return to Story. See [Production Planning](production-planning.md).
 
 ## Shared concerns
 
@@ -118,4 +118,4 @@ No. It may use existing Design references while planning staging and composition
 No. Framework-level approval means the pack is accepted as a reusable resource. The project still selects or approves its own use of that pack.
 
 **Who owns lettering?**  
-Story owns the text and narrative intent. Final lettering and page treatment are reserved for the future Production layer.
+Story owns exact text, speakers and narrative intent. Production owns final lettering and page treatment. Layout text corrections return to Story and are synchronized with the derived lettering list and layout; see [Lettering and print workflow](lettering-and-print-workflow.md).

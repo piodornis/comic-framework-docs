@@ -91,7 +91,7 @@ Expected responsibilities include:
 - production corrections
 - export and delivery formats
 
-Format, page budget, panel defaults/overrides and ad reservations are defined by the draft `comic-production-standard-v0.1-draft`. Final-asset workflows and status remain deferred. See [Production Planning](production-planning.md).
+Format, page budget, panel defaults/overrides and ad reservations are defined by the draft `comic-production-standard-v0.1-draft`. Executable final-asset workflows and a universal asset-status model remain deferred. Optional handoff guidance and a project-level lettering/print pilot are now documented; see [Production Planning](production-planning.md) and [Lettering and print workflow](lettering-and-print-workflow.md).
 
 ## Source-of-truth model
 

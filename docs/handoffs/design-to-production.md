@@ -100,3 +100,9 @@ The Production framework still needs to decide:
 - exact review Skills
 
 Do not freeze these decisions here before real production testing provides evidence.
+
+## First documented asset and lettering handoff — 2026-09-17
+
+The Design-side handoff guidance in `comic-framework-design/schemas/production-handoff.md` now describes reference revisions, approval scope, protected details, crop constraints and reserved text areas. It is optional v1-compatible guidance, not a finalized Production asset schema. Separate editable lettering from artwork when the project adopts that workflow, and document intentional in-world text/integrated-effect exceptions. A previous comic example has a scoped reference role; its full visual style and print settings are not automatically adopted.
+
+[Story to Production](story-to-production.md) supplies wording and correction ownership. [Lettering and print workflow](../lettering-and-print-workflow.md) documents a project-level pilot, including InDesign as one option. Directory conventions can now be tried locally; universal asset states, storage rules and executable rendering/import/export remain open.

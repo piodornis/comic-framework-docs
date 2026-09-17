@@ -127,3 +127,9 @@ Do not use this file to duplicate detailed schemas or operating procedures. Reco
 ## Production planning foundation — 2026-09-14
 
 Concrete requirements now justify an initial Production draft: format profiles, page budgets, per-page panel overrides and advertising reservations. The contract is `comic-production-standard-v0.1-draft`, deliberately limited to planning. Its schemas and templates live in the owning framework; this repository remains descriptive. Earlier references to deferring all Production work are superseded for this scope only. Rendering/export and final-asset status remain deferred. See [Production Planning](production-planning.md).
+
+## Document page-production pilots without requiring a layout tool — 2026-09-17
+
+**Decision:** Document Story/Design handoff and project-local lettering/print preparation while keeping the Production v0.1 contract limited to its implemented planning scope. InDesign can be a selected project implementation; it is not a framework dependency.
+
+**Reason:** Stable text ownership, editable lettering and traceable corrections can be clarified now. Native templates, import behavior, final-asset states and printer-specific settings need real project evidence. Pilot directories and local status labels must not silently become universal contract requirements. This extends the earlier deferral decision only for descriptive workflow and optional handoff guidance.

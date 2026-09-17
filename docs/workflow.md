@@ -157,3 +157,7 @@ When a project adopts `work-status.md`, use it to find the next action and its s
 Keep actionable work separate from intentionally open story questions and actual contradictions. Task completion does not grant canon or design approval; a pause does not imply a blocker. The overview introduces no new permission gate and does not authorize automatic continuation or scheduling.
 
 See [Project Work Tracking](work-tracking.md) for the optional convention. It is descriptive integration guidance, not a change to the Story or Design standards.
+
+## Lettering, corrections and print pilot
+
+Plan text space before final art, then assemble editable lettering and linked artwork in the project's chosen layout application. Reconcile wording changes with Story and review the exported PDF independently from the source layout. [Lettering and print workflow](lettering-and-print-workflow.md) documents this first integration step. InDesign is a project option; native templates and import/export implementations remain to be tested.

@@ -84,3 +84,10 @@ When this documentation and a normative framework schema disagree, the owning fr
 Production planning source: local sibling repository `comic-framework-production`, contract `comic-production-standard-v0.1-draft`. No remote publication is implied.
 
 See [Production Planning](docs/production-planning.md) for the first implementation scope.
+
+## Lettering and print preparation
+
+- [Lettering and print workflow](docs/lettering-and-print-workflow.md) — documented project pilot, optional InDesign implementation and current limits.
+- [Story to Production handoff](docs/handoffs/story-to-production.md) — text authority, stable mapping and corrections from layout back to Story.
+
+Story/Design handoff guidance and project-local preparation are documented. A native template, executable importer and tested print export remain pending; the Production planning contract is unchanged.
