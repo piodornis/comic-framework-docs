@@ -42,6 +42,10 @@ The framework does not choose a universal trim size, bleed, font, minimum text s
 
 ## Current pilot evidence
 
-Human Park has project-local workflow documentation, directories, empty lettering/asset/change templates and print/review checklists. Its previous InDesign example is still pending. No native template, importer or print PDF has been created by that preparation. Its physical slots, page counts, dimensions, IDs and visual identity are not reusable defaults.
+Human Park has project-local workflow documentation, directories, empty lettering/asset/change templates and print/review checklists. Its previous InDesign example has been received and an initial metadata/geometry intake and provider-source specification have been recorded (2026-09-17). Native and PDF geometry differ and require reconciliation; complete font/link validation remains pending. No native template, importer or print PDF has been created by that preparation. Its physical slots, page counts, dimensions, IDs and visual identity are not reusable defaults.
 
-Next: receive the example, document its reusable conventions, exercise a representative spread and text-dense page, then implement and verify the smallest useful import. Formalize reusable Production schemas only after the pilot provides evidence.
+Next: reconcile the example geometry, verify links/fonts and the selected printer configuration, document reusable conventions, exercise a representative spread and text-dense page, then implement and verify the smallest useful import. Formalize reusable Production schemas only after the pilot provides evidence.
+
+## Printer evidence and legacy-layout comparison
+
+Production now owns optional guidance in `comic-framework-production/guides/printer-specification-intake.md`. It separates provider-published claims, project proposals, calculated geometry and requirements confirmed for an exact configuration. Country/product-specific conflicts remain explicit; a printer's values do not replace reusable defaults automatically. Native page geometry and PDF page boxes are checked independently before adopting a template. Historical example settings and requirements for the next job remain separate project records.
